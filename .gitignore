@@ -1,0 +1,22 @@
+# Root-level ignores
+temp-repos/
+node_modules/
+package-lock.json
+
+# Ignore node_modules and package-lock.json inside client and server directories
+client/node_modules/
+client/package-lock.json
+
+server/node_modules/
+server/package-lock.json
+
+# Ignore cache directories
+**/.cache/
+
+
+# Optional: ignore log files
+*.log
+
+# Optional: ignore OS-specific files
+.DS_Store
+Thumbs.db
